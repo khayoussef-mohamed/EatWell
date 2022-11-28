@@ -17,22 +17,22 @@ export class SideMenuComponent implements OnInit {
     {
       name: "Entrée",
       category: MenuItem.CategoryEnum.STARTER,
-      image: "https://cdn-elle.ladmedia.fr/var/plain_site/storage/images/elle-a-table/menus-de-chefs/entrees-de-chefs/788699-4-fre-FR/Entrees-de-chefs.jpg"
+      image: "https://archzine.fr/wp-content/uploads/2016/05/rouleaux-de-cooncombre-avec-fromage-a%CC%80-la-cre%CC%80me-et-saumon-fume%CC%81-ide%CC%81e-de-recette-entre%CC%81e-froide-simple-et-rapide.jpg"
     },
     {
       name: "Principal",
       category: MenuItem.CategoryEnum.MAIN,
-      image: "https://assets.bonappetit.com/photos/5b919cb83d923e31d08fed17/1:1/w_2560%2Cc_limit/basically-burger-1.jpg"
+      image: "https://www.fruitdor.fr/-/media/Project/Upfield/Brands/Becel-NL/Becel-FR/Assets/Recipes/New-recipe-images/Varumarkesida_831x554px_Plantbased-recipe-ideas_4.jpg?rev=41d1610c0bbf426e9de99559728f7da5&w=1920"
     },
     {
       name: "Boissons",
       category: MenuItem.CategoryEnum.BEVERAGE,
-      image: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cosmopolitan-1592951320.jpg?crop=1xw:1xh;center,top&resize=480:*"
+      image: "https://www.lepiqueassiette-artenay.com/wp-content/uploads/2016/06/fruit-juice-1332072_1920-768x512-1.jpg"
     },
     {
       name: "Dessert",
       category: MenuItem.CategoryEnum.DESSERT,
-      image: "https://www.finedininglovers.fr/sites/g/files/xknfdk1291/files/styles/recipes_1200_1200_fallback/public/2020-05/ricette_dessert_0.jpg?itok=BcsQRdmo"
+      image: "https://static.750g.com/images/622-auto/bb0da601a2fd36e1ad67794d9aaeaf5d/adobestock-239130233.jpeg"
     }
   ];
 
