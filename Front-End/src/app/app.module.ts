@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { MatCardModule } from '@angular/material/card';
 import { AppRoutingModule } from './app-routing.module';
@@ -18,17 +18,35 @@ import { HttpClientModule } from '@angular/common/http';
 import { IconsProviderModule } from './icons-provider.module';
 import { NzLayoutModule } from 'ng-zorro-antd/layout';
 import { NzMenuModule } from 'ng-zorro-antd/menu';
+import { HomeComponent } from './home/home.component';
+import { FooterComponent } from './footer/footer.component';
 
 registerLocaleData(fr);
 
-
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, SideMenuComponent, SideMenuItemComponent, MenuComponent, MenuItemComponent],
-  imports: [BrowserModule, AppRoutingModule, MatCardModule, BrowserAnimationsModule, FormsModule, HttpClientModule, IconsProviderModule, NzLayoutModule, NzMenuModule],
-  providers: [
-    { provide: NZ_I18N, useValue: fr_FR }
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    SideMenuComponent,
+    SideMenuItemComponent,
+    MenuComponent,
+    MenuItemComponent,
+    HomeComponent,
+    FooterComponent,
   ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    MatCardModule,
+    BrowserAnimationsModule,
+    FormsModule,
+    HttpClientModule,
+    IconsProviderModule,
+    NzLayoutModule,
+    NzMenuModule,
+  ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
+  providers: [{ provide: NZ_I18N, useValue: fr_FR }],
   bootstrap: [AppComponent],
-
 })
 export class AppModule {}
