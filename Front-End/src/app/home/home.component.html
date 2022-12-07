@@ -1,52 +1,45 @@
-<header></header>
-<!--
-<nz-layout>
-  <nz-header>
-    <div class="logo"></div>
-    <ul nz-menu nzTheme="dark" nzMode="horizontal" class="header-menu">
-      <li nz-menu-item nzSelected>nav 1</li>
-      <li nz-menu-item>nav 2</li>
-      <li nz-menu-item>nav 3</li>
-    </ul>
-  </nz-header>
-  <nz-layout>
-    <nz-sider nzWidth="200px" nzTheme="light">
-      <ul nz-menu nzMode="inline" class="sider-menu">
-        <li nz-submenu nzOpen nzIcon="user" nzTitle="subnav 1">
-          <ul>
-            <li nz-menu-item nzSelected>option1</li>
-            <li nz-menu-item>option2</li>
-            <li nz-menu-item>option3</li>
-            <li nz-menu-item>option4</li>
-          </ul>
-        </li>
-        <li nz-submenu nzTitle="subnav 2" nzIcon="laptop">
-          <ul>
-            <li nz-menu-item>option5</li>
-            <li nz-menu-item>option6</li>
-            <li nz-menu-item>option7</li>
-            <li nz-menu-item>option8</li>
-          </ul>
-        </li>
-        <li nz-submenu nzTitle="subnav 3" nzIcon="notification">
-          <ul>
-            <li nz-menu-item>option9</li>
-            <li nz-menu-item>option10</li>
-            <li nz-menu-item>option11</li>
-            <li nz-menu-item>option12</li>
-          </ul>
-        </li>
-      </ul>
-    </nz-sider>
-    <nz-layout class="inner-layout">
-      <nz-breadcrumb>
-        <nz-breadcrumb-item>Home</nz-breadcrumb-item>
-        <nz-breadcrumb-item>List</nz-breadcrumb-item>
-        <nz-breadcrumb-item>App</nz-breadcrumb-item>
-      </nz-breadcrumb>
-      <nz-content>Content</nz-content>
-    </nz-layout>
-  </nz-layout>
-</nz-layout>
+<div class="flex w-[18rem] flex-col space-y-2 p-4 md:h-[25rem] md:w-[60rem]">
+  <!-- Pour le titre-->
 
--->
+  <!--Pour le Menu-->
+  <div
+    class="flex w-[16rem] flex-col space-y-6 rounded-lg border p-2 shadow-md md:h-[42rem] md:w-[58rem] md:space-y-8"
+  >
+    <!--Pour le menu-->
+    <!--Titre-->
+    <div class="text-s text-center font-bold md:text-lg">kk</div>
+    <!--Icones-->
+    <div class="flex flex-col justify-center space-y-8">
+      <div
+        class="flex flex-col justify-center justify-center space-y-8 md:flex-row md:space-y-0 md:space-x-10"
+      >
+        <div
+          class="flex w-[14rem] flex-none cursor-pointer flex-col justify-center rounded-lg border shadow-md transition delay-150 duration-150 ease-in-out hover:-translate-y-1 hover:scale-110 sm:w-[20rem] lg:w-[rem]"
+        >
+          <div class="flex justify-center">
+            <img
+              class="h-10 sm:h-20"
+              src="assets/images/Inspection_zec_arrivee.png"
+              alt="photo"
+            />
+          </div>
+          <div class="text-l sm:text-l p-4 text-center font-bold">
+            {{ "MENU.INSPECTION_ZEC" | translate }}
+          </div>
+        </div>
+        <div
+          class="flex w-[14rem] flex-none cursor-pointer flex-col rounded-lg border shadow-md transition delay-150 duration-150 ease-in-out hover:-translate-y-1 hover:scale-110 sm:w-[20rem] lg:w-[20rem]"
+        >
+          <div class="flex justify-center">
+            <img
+              class="h-10 sm:h-20"
+              src="assets/images/tour_avion_arrive.png"
+              alt="photo"
+            />
+          </div>
+          <div class="text-l sm:text-l p-4 text-center font-bold">jj</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
