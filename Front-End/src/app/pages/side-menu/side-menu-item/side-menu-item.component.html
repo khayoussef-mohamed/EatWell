@@ -1,4 +1,10 @@
-<mat-card (click)="selectItem()">
-  <img mat-card-image src="{{sideMenuItem.image}}" alt="Photo d'un plat d'entrée">
-  <mat-card-title>{{sideMenuItem.name}}</mat-card-title>
-</mat-card>
+<div>
+  <mat-card (click)="selectItem()">
+    <img
+      mat-card-image
+      src="{{ sideMenuItem.image }}"
+      alt="Photo d'un plat d'entrée"
+    />
+    <mat-card-title>{{ sideMenuItem.name }}</mat-card-title>
+  </mat-card>
+</div>
