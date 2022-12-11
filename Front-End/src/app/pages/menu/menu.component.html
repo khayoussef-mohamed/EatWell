@@ -40,7 +40,7 @@
         class="flex flex row bg-[#f5f5f4] rounded-lg border w-[55rem] h-[25rem] justify-center"
       >
         <div
-          class="flex flex-col space-y-2 rounded-lg border w-[35rem] h-[23rem]"
+          class="flex flex-col space-y-2 rounded-lg border w-[35rem] h-[24rem]"
         >
           <!-- Image-->
           <div class="flex flex-row justify-center p-4">
@@ -57,7 +57,26 @@
             </div>
           </div>
           <!-- Etoiles -->
-          <div class="flex flex-row justify-center p-4">Etoile-icone</div>
+          <div class="flex flex-row justify-center p-4">
+            <mat-icon
+              aria-hidden="false"
+              aria-label="Example home icon"
+              fontIcon="star_border"
+              color=""
+            ></mat-icon>
+            <mat-icon
+              aria-hidden="false"
+              aria-label="Example home icon"
+              fontIcon="star_border"
+              color=""
+            ></mat-icon>
+            <mat-icon
+              aria-hidden="false"
+              aria-label="Example home icon"
+              fontIcon="star_border"
+              color=""
+            ></mat-icon>
+          </div>
 
           <!-- Description -->
           <div class="flex flex-row justify-center p-2">
@@ -73,16 +92,50 @@
             </div>
           </div>
           <!-- Prix + ajout -->
-          <div class="flex flex-row justify-between p-2">
+          <div class="flex flex-row justify-between p-4">
             <div class="text-l sm:text-l p-0 text-center font-bold">10.00€</div>
-            <div class="text-l sm:text-l p-0 text-center font-bold">10.00€</div>
+            <div class="flex flex-row space-x-8">
+              <mat-icon
+                aria-hidden="false"
+                aria-label="Example home icon"
+                fontIcon="add_circle_outline"
+                color=""
+              ></mat-icon>
+              <div class="flex justify-center">1</div>
+              <mat-icon
+                fontIcon="remove_circle_outline "
+                color="warn"
+              ></mat-icon>
+            </div>
           </div>
         </div>
       </div>
       <div
-        class="flex flex row bg-[#f5f5f4] rounded-lg border w-[55rem] h-[5rem]"
+        class="flex flex-row bg-[#f5f5f4] rounded-lg border w-[55rem] h-[5rem] justify-between items-center p-10"
       >
-        02
+        <div>
+          <mat-icon
+            aria-hidden="false"
+            aria-label="Example home icon"
+            fontIcon="reply_all"
+            color=""
+          ></mat-icon>
+        </div>
+        <div>
+          <div
+            class="flex rounded-lg border w-[15rem] h-[3rem] justify-between items-center p-5 bg-[#ff9900]"
+          >
+            <div class="text-l sm:text-l p-0 text-center font-bold">
+              Ajouter au panier
+            </div>
+            <mat-icon
+              aria-hidden="false"
+              aria-label="Example home icon"
+              fontIcon="shopping_basket"
+              color=""
+            ></mat-icon>
+          </div>
+        </div>
       </div>
     </div>
   </div>
