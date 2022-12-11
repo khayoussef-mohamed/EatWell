@@ -20,6 +20,7 @@ import { HttpLoaderFactory } from './translate-loaders';
 import { FooterComponent } from './shared/footer/footer.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { MatIconModule } from '@angular/material/icon';
+import {BasketComponent} from "./pages/basket/basket.component";
 
 registerLocaleData(fr);
 
@@ -30,6 +31,7 @@ registerLocaleData(fr);
     MenuComponent,
     HomeComponent,
     FooterComponent,
+    BasketComponent
   ],
   imports: [
     BrowserModule,
