@@ -3,10 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { MatCardModule } from '@angular/material/card';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SideMenuComponent } from './pages/side-menu/side-menu.component';
-import { SideMenuItemComponent } from './pages/side-menu/side-menu-item/side-menu-item.component';
 import { MenuComponent } from './pages/menu/menu.component';
-import { MenuItemComponent } from './pages/menu/menu-item/menu-item.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NZ_I18N } from 'ng-zorro-antd/i18n';
 import { fr_FR } from 'ng-zorro-antd/i18n';
@@ -29,10 +26,7 @@ registerLocaleData(fr);
   declarations: [
     AppComponent,
     HeaderComponent,
-    SideMenuComponent,
-    SideMenuItemComponent,
     MenuComponent,
-    MenuItemComponent,
     HomeComponent,
     FooterComponent,
   ],
