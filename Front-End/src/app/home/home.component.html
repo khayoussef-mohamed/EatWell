@@ -1,84 +1,156 @@
-<div class="flex flex-row space-x-4">
+<div class="flex flex-row space-x-4 items-center">
   <div
-    class="flex w-[12rem] flex-col space-y-2 p-4 md:h-[35rem] md:w-[23rem] bg-[#fed7aa] basis-1/6 rounded-lg border p-2 shadow-md justify-center items-center"
+    class="flex w-[12rem] h-[28rem] flex-col space-y-2 p-4 md:h-[35rem] md:w-[23rem] bg-[#fed7aa] basis-1/6 rounded-lg border p-2 shadow-md justify-center items-center"
   >
     <div
-      class="flex w-[8rem] flex-col space-y-6 rounded-lg border p-2 shadow-md md:h-[25rem] basis-1/4 bg-[#f5f5f4] md:w-[10rem] md:space-y-8 transition delay-150 duration-150 ease-in-out hover:-translate-y-1 hover:scale-110 cursor-pointer"
+      class="flex flex-row w-[6rem] h-[6rem] md:w-[12rem] md:h-[8rem] justify-center md: rounded-lg border transition delay-150 duration-150 ease-in-out hover:-translate-y-1 hover:scale-110 cursor-pointer bg-[#f5f5f4]"
     >
-      <div class="flex justify-center">
-        <img class="h-10 sm:h-19" src="assets/images/boisson.jpg" alt="photo" />
+      <div class="flex flex-col 30">
+        <div class="flex justify-center">
+          <img
+            class="h-15 md:h-20"
+            src="assets/images/boisson.jpg"
+            alt="photo"
+          />
+        </div>
+        <div class="text-l sm:text-l p-2 text-center font-bold">Boissons</div>
       </div>
-      <div class="text-l sm:text-l p-4 text-center font-bold">Boissons</div>
-    </div>
-
-    <div
-      class="flex w-[8rem] flex-col space-y-6 rounded-lg border p-2 shadow-md md:h-[25rem] basis-1/4 bg-[#f5f5f4] md:w-[10rem] md:space-y-8 transition delay-150 duration-150 ease-in-out hover:-translate-y-1 hover:scale-110 cursor-pointer"
-    >
-      <div class="flex justify-center">
-        <img class="h-10 sm:h-20" src="assets/images/plat.jpg" alt="photo" />
-      </div>
-      <div class="text-l sm:text-l p-4 text-center font-bold">Plats</div>
     </div>
     <div
-      class="flex w-[8rem] flex-col space-y-6 rounded-lg border p-2 shadow-md md:h-[25rem] basis-1/4 bg-[#f5f5f4] md:w-[10rem] md:space-y-8 transition delay-150 duration-150 ease-in-out hover:-translate-y-1 hover:scale-110 cursor-pointer"
+      class="flex flex-row w-[6rem] h-[6rem] md:w-[12rem] md:h-[8rem] justify-center md: rounded-lg border transition delay-150 duration-150 ease-in-out hover:-translate-y-1 hover:scale-110 cursor-pointer bg-[#f5f5f4]"
     >
-      <div class="flex justify-center">
-        <img
-          class="h-10 sm:h-20"
-          src="assets/images/dessert.jpeg"
-          alt="photo"
-        />
+      <div class="flex flex-col 30">
+        <div class="flex justify-center">
+          <img class="h-15 md:h-20" src="assets/images/plat.jpg" alt="photo" />
+        </div>
+        <div class="text-l sm:text-l p-2 text-center font-bold">Plats</div>
       </div>
-      <div class="text-l sm:text-l p-4 text-center font-bold">Desserts</div>
+    </div>
+    <div
+      class="flex flex-row w-[6rem] h-[6rem] md:w-[12rem] md:h-[8rem] justify-center md: rounded-lg border transition delay-150 duration-150 ease-in-out hover:-translate-y-1 hover:scale-110 cursor-pointer bg-[#f5f5f4]"
+    >
+      <div class="flex flex-col 30">
+        <div class="flex justify-center">
+          <img
+            class="h-15 md:h-20"
+            src="assets/images/dessert.jpeg"
+            alt="photo"
+          />
+        </div>
+        <div class="text-l sm:text-l p-2 text-center font-bold">Desserts</div>
+      </div>
     </div>
   </div>
   <div
-    class="flex w-[10rem] justify-center flex-col space-y-2 p-4 md:h-[35rem] md:flex-row space-x-4 md:w-[60rem] bg-[#fed7aa] basis-5/6 rounded-lg border p-2 shadow-md justify-center"
+    class="flex w-[9rem] h-[28rem] md:w-[55rem] justify-center flex-col space-y-2 p-4 md:h-[35rem] md:flex-row space-x-4 bg-[#fed7aa] basis-5/6 rounded-lg border p-2 shadow-md justify-center"
   >
-    <div
-      class="flex w-[8rem] flex-col space-y-6 rounded-lg border p-2 shadow-md md:h-[12rem] bg-[#f5f5f4] md:w-[10rem] md:space-y-8 transition delay-150 duration-150 ease-in-out hover:-translate-y-1 hover:scale-110 cursor-pointer"
-    >
-      <div class="flex justify-center">
-        <img class="h-10 sm:h-15" src="assets/images/menu1.jpeg" alt="photo" />
+    <!-- Ligne 1-->
+    <div class="flex flex-col space-y-2 md:flex-row md:space-x-10 items-center">
+      <div
+        class="flex w-[8rem] h-[8rem] md:w-[15rem] md:h-[10rem] flex-col space-y-2 rounded-lg border p-4 shadow-md bg-[#f5f5f4] md:space-x-2 transition delay-150 duration-150 ease-in-out hover:-translate-y-1 hover:scale-110 cursor-pointer"
+      >
+        <div class="flex flex-row justify-center">
+          <img
+            class="h-10 sm:h-20"
+            src="assets/images/menu1.jpeg"
+            alt="photo"
+          />
+        </div>
+
+        <div
+          routerLink="/menu"
+          class="flex flex-row text-xs md:text-l text-center justify-center"
+        >
+          Classic burger
+        </div>
+        <div class="flex flex-row justify-center justify-between items-center">
+          <div>
+            <mat-icon
+              aria-hidden="false"
+              aria-label="Example home icon"
+              fontIcon="star_border"
+              color=""
+            ></mat-icon>
+            <mat-icon
+              aria-hidden="false"
+              aria-label="Example home icon"
+              fontIcon="star_border"
+              color=""
+            ></mat-icon>
+          </div>
+          <div class="text-xs md:text-xl">10.99€</div>
+        </div>
       </div>
       <div
-        routerLink="/menu"
-        class="text-l sm:text-l p-4 text-center font-bold"
+        class="flex w-[8rem] h-[8rem] md:w-[15rem] md:h-[10rem] flex-col space-y-2 rounded-lg border p-4 shadow-md bg-[#f5f5f4] md:space-y-2 transition delay-150 duration-150 ease-in-out hover:-translate-y-1 hover:scale-110 cursor-pointer"
       >
-        Menu 1
+        <div class="flex flex-row justify-center">
+          <img
+            class="h-10 sm:h-20"
+            src="assets/images/menu1.jpeg"
+            alt="photo"
+          />
+        </div>
+
+        <div
+          routerLink="/menu"
+          class="flex flex-row text-xs md:text-l text-center justify-center"
+        >
+          Classic burger 2
+        </div>
+        <div class="flex flex-row justify-center justify-between items-center">
+          <div>
+            <mat-icon
+              aria-hidden="false"
+              aria-label="Example home icon"
+              fontIcon="star_border"
+              color=""
+            ></mat-icon>
+            <mat-icon
+              aria-hidden="false"
+              aria-label="Example home icon"
+              fontIcon="star_border"
+              color=""
+            ></mat-icon>
+          </div>
+          <div class="text-xs md:text-xl">13.99€</div>
+        </div>
       </div>
-    </div>
-    <div
-      class="flex w-[8rem] flex-col space-y-6 rounded-lg border p-2 shadow-md md:h-[12rem] bg-[#f5f5f4] md:w-[10rem] md:space-y-8 transition delay-150 duration-150 ease-in-out hover:-translate-y-1 hover:scale-110 cursor-pointer"
-    >
-      <div class="flex justify-center">
-        <img class="h-10 sm:h-15" src="assets/images/menu2.jpg" alt="photo" />
+      <div
+        class="flex w-[8rem] h-[8rem] md:w-[15rem] md:h-[10rem] flex-col space-y-2 rounded-lg border p-4 shadow-md bg-[#f5f5f4] md:space-y-2 transition delay-150 duration-150 ease-in-out hover:-translate-y-1 hover:scale-110 cursor-pointer"
+      >
+        <div class="flex flex-row justify-center">
+          <img
+            class="h-10 sm:h-20"
+            src="assets/images/menu1.jpeg"
+            alt="photo"
+          />
+        </div>
+
+        <div
+          routerLink="/menu"
+          class="flex flex-row text-xs md:text-l text-center justify-center"
+        >
+          Classic burger 3
+        </div>
+        <div class="flex flex-row justify-center justify-between items-center">
+          <div>
+            <mat-icon
+              aria-hidden="false"
+              aria-label="Example home icon"
+              fontIcon="star_border"
+              color=""
+            ></mat-icon>
+            <mat-icon
+              aria-hidden="false"
+              aria-label="Example home icon"
+              fontIcon="star_border"
+              color=""
+            ></mat-icon>
+          </div>
+          <div class="text-xs md:text-xl">12.99€</div>
+        </div>
       </div>
-      <div class="text-l sm:text-l p-4 text-center font-bold">Menu 2</div>
-    </div>
-    <div
-      class="flex w-[8rem] flex-col space-y-6 rounded-lg border p-2 shadow-md md:h-[12rem] bg-[#f5f5f4] md:w-[10rem] md:space-y-8 transition delay-150 duration-150 ease-in-out hover:-translate-y-1 hover:scale-110 cursor-pointer"
-    >
-      <div class="flex justify-center">
-        <img class="h-10 sm:h-15" src="assets/images/menu3.jpg" alt="photo" />
-      </div>
-      <div class="text-l sm:text-l p-4 text-center font-bold">Menu 3</div>
-    </div>
-    <div
-      class="flex w-[8rem] flex-col space-y-6 rounded-lg border p-2 shadow-md md:h-[12rem] bg-[#f5f5f4] md:w-[10rem] md:space-y-8 transition delay-150 duration-150 ease-in-out hover:-translate-y-1 hover:scale-110 cursor-pointer"
-    >
-      <div class="flex justify-center">
-        <img class="h-10 sm:h-15" src="assets/images/menu4.jpeg" alt="photo" />
-      </div>
-      <div class="text-l sm:text-l p-4 text-center font-bold">Menu 4</div>
-    </div>
-    <div
-      class="flex w-[8rem] flex-col space-y-6 rounded-lg border p-2 shadow-md md:h-[12rem] bg-[#f5f5f4] md:w-[10rem] md:space-y-8 transition delay-150 duration-150 ease-in-out hover:-translate-y-1 hover:scale-110 cursor-pointer"
-    >
-      <div class="flex justify-center">
-        <img class="h-10 sm:h-15" src="assets/images/menu1.jpeg" alt="photo" />
-      </div>
-      <div class="text-l sm:text-l p-4 text-center font-bold">Menu 5</div>
     </div>
   </div>
 </div>
