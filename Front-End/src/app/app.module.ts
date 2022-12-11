@@ -22,6 +22,7 @@ import { HeaderComponent } from './shared/header/header.component';
 import { MatIconModule } from '@angular/material/icon';
 import {BasketComponent} from "./pages/basket/basket.component";
 import {ItemsComponent} from "./pages/items/items.component";
+import {SummaryComponent} from "./pages/summary/summary.component";
 
 registerLocaleData(fr);
 
@@ -33,7 +34,8 @@ registerLocaleData(fr);
     HomeComponent,
     FooterComponent,
     BasketComponent,
-    ItemsComponent
+    ItemsComponent,
+    SummaryComponent
   ],
   imports: [
     BrowserModule,
