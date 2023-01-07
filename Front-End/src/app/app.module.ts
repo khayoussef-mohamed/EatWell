@@ -20,9 +20,10 @@ import { HttpLoaderFactory } from './translate-loaders';
 import { FooterComponent } from './shared/footer/footer.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { MatIconModule } from '@angular/material/icon';
-import {BasketComponent} from "./pages/basket/basket.component";
-import {ItemsComponent} from "./pages/items/items.component";
-import {SummaryComponent} from "./pages/summary/summary.component";
+import { MatMenuModule } from '@angular/material/menu';
+import { BasketComponent } from './pages/basket/basket.component';
+import { ItemsComponent } from './pages/items/items.component';
+import { SummaryComponent } from './pages/summary/summary.component';
 
 registerLocaleData(fr);
 
@@ -35,12 +36,13 @@ registerLocaleData(fr);
     FooterComponent,
     BasketComponent,
     ItemsComponent,
-    SummaryComponent
+    SummaryComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MatCardModule,
+    MatMenuModule,
     BrowserAnimationsModule,
     FormsModule,
     HttpClientModule,

@@ -1,61 +1,42 @@
-<nav>
-  <input id="nav-toggle" type="checkbox" />
-  <div class="logo">EAT<strong>WELL</strong></div>
-  <ul class="links">
-    <li>
-      <a href="#"
-        ><mat-icon
-          aria-hidden="false"
-          aria-label="Example home icon"
-          fontIcon="shopping_basket"
-          color=""
-        ></mat-icon
-      ></a>
-    </li>
-    <li>
-      <div class="linksa" routerLink="/home">
-        <mat-icon
-          aria-hidden="false"
-          aria-label="Example home icon"
-          fontIcon="home"
-          color=""
-        ></mat-icon>
-      </div>
-    </li>
-    <li>
-      <div class="linksa" routerLink="/menu">
-        <mat-icon
-          aria-hidden="false"
-          aria-label="Example home icon"
-          fontIcon="restaurant_menu"
-          color=""
-        ></mat-icon>
-      </div>
-    </li>
-    <li>
-      <a
-        ><mat-icon
-          aria-hidden="false"
-          aria-label="Example home icon"
-          fontIcon="language"
-          color=""
-        ></mat-icon
-      ></a>
-    </li>
-    <li>
-      <a href="#about"
-        ><mat-icon
-          aria-hidden="false"
-          aria-label="Example home icon"
-          fontIcon="brightness_medium"
-          color=""
-        ></mat-icon
-      ></a>
-    </li>
-  </ul>
-  <label for="nav-toggle" class="icon-burger">
-    <div class="line"></div>
-    <div class="line"></div>
-    <div class="line"></div>
-  </label>
-</nav>
+<header
+  class="flex h-16 flex-col items-center justify-around bg-gradient-to-r from-primary-700 to-primary-300 px-10 sm:flex-row sm:justify-between bg-orange-400"
+>
+  <img
+    src=""
+    alt="Logo EatWELL"
+    class="hidden h-5 cursor-pointer sm:inline"
+    routerLink="/home"
+  />
+  <span
+    class="cursor-pointer text-sm font-bold text-white hover:text-[#cbd5e1] lg:text-xl"
+    routerLink="/home"
+    >EATWELL</span
+  >
+
+  <div class="flex items-center text-sm text-white sm:space-x-14 space-x-3">
+    <mat-icon class="cursor-pointer" routerLink="/home">home</mat-icon>
+    <mat-icon class="cursor-pointer" routerLink="/menu"
+      >restaurant_menu</mat-icon
+    >
+    <button mat-button [matMenuTriggerFor]="menuAccount" class="p-0">
+      <mat-icon>shopping_basket</mat-icon>
+    </button>
+    <mat-menu #menuAccount="matMenu">
+      <button mat-menu-item>
+        <mat-icon>view_headline</mat-icon>
+        Liste des commandes
+      </button>
+    </mat-menu>
+    <mat-icon class="cursor-pointer">brightness_medium</mat-icon>
+    <span class="mx-2">|</span>
+    <a
+      [matMenuTriggerFor]="menuLanguage"
+      class="mat-title m-0 cursor-pointer text-xl"
+      >{{ string }}</a
+    >
+    <mat-menu #menuLanguage="matMenu">
+      <button mat-menu-item (click)="french()">FR</button>
+      <button mat-menu-item (click)="english()">EN</button>
+    </mat-menu>
+  </div>
+</header>
