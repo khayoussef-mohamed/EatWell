@@ -1,0 +1,165 @@
+[
+  {
+    "id": 1,
+    "type": "plat",
+    "img": "https://www.pizzahut.fr/sites/default/files/2019-03/PH_Logo_2019.png",
+    "name": "Pizza Hut",
+    "notation": 4,
+    "price": 10
+  },
+  {
+    "id": 2,
+    "type": "plat",
+    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
+    "name": "Burger King",
+    "notation": 3,
+    "price": 8
+  },
+  {
+    "id": 3,
+    "type": "plat",
+    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
+    "name": "Burger King",
+    "notation": 3,
+    "price": 8
+  },
+  {
+    "id": 4,
+    "type": "plat",
+    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
+    "name": "Burger King",
+    "notation": 3,
+    "price": 8
+  },
+  {
+    "id": 5,
+    "type": "plat",
+    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
+    "name": "Burger King",
+    "notation": 3,
+    "price": 8
+  },
+  {
+    "id": 6,
+    "type": "plat",
+    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
+    "name": "Burger King",
+    "notation": 3,
+    "price": 8
+  },
+  {
+    "id": 7,
+    "type": "plat",
+    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
+    "name": "Burger King",
+    "notation": 3,
+    "price": 8
+  },
+  {
+    "id": 8,
+    "type": "boisson",
+    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
+    "name": "Coca-Cola",
+    "notation": 3,
+    "price": 8
+  },
+  {
+    "id": 9,
+    "type": "boisson",
+    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
+    "name": "Fanta",
+    "notation": 3,
+    "price": 8
+  },
+  {
+    "id": 10,
+    "type": "boisson",
+    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
+    "name": "Sprite",
+    "notation": 3,
+    "price": 8
+  },
+
+  {
+    "id": 11,
+    "type": "dessert",
+    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
+    "name": "Cheese Cake",
+    "notation": 3,
+    "price": 8
+  },
+  {
+    "id": 12,
+    "type": "dessert",
+    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
+    "name": "Brownie",
+    "notation": 3,
+    "price": 8
+  },
+  {
+    "id": 13,
+    "type": "dessert",
+    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
+    "name": "Milk Shake",
+    "notation": 3,
+    "price": 8
+
+  },
+  {
+    "id": 14,
+    "type": "dessert",
+    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
+    "name": "donut",
+    "notation": 3,
+    "price": 8
+  },
+  {
+    "id": 15,
+    "type": "dessert",
+    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
+    "name": "ice Cream",
+    "notation": 3,
+    "price": 8
+  },
+  {
+    "id": 16,
+    "type": "dessert",
+    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
+    "name": "ice Cream",
+    "notation": 3,
+    "price": 8
+  },
+  {
+    "id": 17,
+    "type": "dessert",
+    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
+    "name:": "tarte au citron",
+    "notation": 3,
+    "price": 8
+  },
+
+  {
+    "id": 18,
+    "type": "dessert",
+    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
+    "name": "tarte au pomme",
+    "notation": 3,
+    "price": 8
+  },
+  {
+    "id": 19,
+    "type": "dessert",
+    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
+    "name": "gateau au chocolat",
+    "notation": 3,
+    "price": 8
+  },
+  {
+    "id": 20,
+    "type": "dessert",
+    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
+    "name": "glace au chocolat",
+    "notation": 3,
+    "price": 8
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "foods": [
+      {
+        "id": 1,
+        "name": "Pizza",
+        "type": "plat",
+        "img": "https://www.pizzahut.fr/sites/default/files/2019-03/PH_Logo_2019.png",
+        "notation": 4,
+        "price": 10
+      },
+      {
+        "id": 2,
+        "name": "Burger",
+        "type": "plat",
+        "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
+        "notation": 3,
+        "price": 8
+      },
+      {
+        "name": "burger as 3",
+        "type": "plat",
+        "img": "https://www.pizzahut.fr/sites/default/files/2019-03/PH_Logo_2019.png",
+        "notation": 3,
+        "price": 10,
+        "id": 3
+      },
+      {
+        "name": "burger as 9",
+        "type": "plat",
+        "img": "https://www.pizzahut.fr/sites/default/files/2019-03/PH_Logo_2019.png",
+        "notation": 3,
+        "price": 10,
+        "id": 4
+      }
+    ]
+  }
+]
