@@ -24,6 +24,7 @@
     "@material/card": "^14.0.0",
     "@ngx-translate/core": "^14.0.0",
     "@ngx-translate/http-loader": "^7.0.0",
+    "angular-dark-mode": "^3.0.3",
     "ng-zorro-antd": "^14.2.1",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",

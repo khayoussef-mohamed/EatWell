@@ -1,5 +1,7 @@
 import { ChangeDetectionStrategy, Component, EventEmitter, Output } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import {Observable} from "rxjs";
+import { DarkModeService } from 'angular-dark-mode';
 
 @Component({
   selector: 'app-header',
@@ -9,8 +11,9 @@ import { TranslateService } from '@ngx-translate/core';
 export class HeaderComponent {
   @Output() toggle = new EventEmitter();
   string = 'FR';
+  readonly darkMode$: Observable<boolean> = this.darkModeService.darkMode$;
 
-  constructor(private translate: TranslateService) {
+  constructor(private translate: TranslateService, private darkModeService: DarkModeService) {
     this.translate.setDefaultLang('fr');
   }
   french() {
@@ -27,5 +30,8 @@ export class HeaderComponent {
 
   logout() {
     console.log('logout');
+  }
+  onToggle(): void {
+    this.darkModeService.toggle();
   }
 }

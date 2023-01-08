@@ -18,7 +18,23 @@
     <mat-icon class="cursor-pointer" routerLink="/menu">restaurant</mat-icon>
     <mat-icon class="cursor-pointer" routerLink="/basket">shopping_basket</mat-icon>
 
-    <mat-icon class="cursor-pointer">brightness_medium</mat-icon>
+    <input
+      id="darkMode"
+      type="checkbox"
+      [checked]="darkMode$ | async"
+      (change)="onToggle()"
+      class="toggle"
+    />
+    <label class="toggle-label" for="darkMode">
+      <img
+        src="https://raw.githubusercontent.com/talohana/angular-dark-mode/master/src/assets/moon.svg"
+        class="moon"
+      />
+      <img
+        src="https://raw.githubusercontent.com/talohana/angular-dark-mode/master/src/assets/sun.svg"
+        class="sun"
+      />
+    </label>
     <span class="mx-2">|</span>
     <a
       [matMenuTriggerFor]="menuLanguage"
