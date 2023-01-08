@@ -14,7 +14,7 @@ body:not(.dark-mode-preloading) {
 
 body.dark-mode {
   background-color: #2d3436;
-  color: #4b4b4b;
+  color: #ffffff;
 }
 
 body.light-mode {
