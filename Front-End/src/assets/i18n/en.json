@@ -1,0 +1,13 @@
+{
+  "SLIDER": {
+    "DRINKS": "Drinks",
+    "FOOD": "Food",
+    "DESSERTS": "Desserts"
+  },
+"PAYMENT":
+  {
+    "CASH": "Pay in cash",
+    "CARD": "Pay by credit card",
+    "PAY": "Pay"
+  }
+}

@@ -1,0 +1,24 @@
+<div class="flex flex-col justify-center space-y-8 md:flex-row md:space-y-0 md:space-x-10">
+  <div
+    class="flex w-[12rem] flex-none cursor-pointer flex-col rounded-lg  border shadow-md transition delay-150 duration-150 ease-in-out hover:-translate-y-1 hover:scale-110 sm:w-[20rem] lg:w-[30rem]"
+    routerLink="/summary"
+  >
+    <div class="flex justify-center">
+      <img class="h-20 sm:h-48" src="assets/images/cash.png" alt="" />
+    </div>
+    <div class="p-4 text-center text-xl font-bold">
+      {{ 'PAYMENT.CASH' | translate }}
+    </div>
+  </div>
+  <div
+    class="flex w-[12rem] flex-none cursor-pointer flex-col rounded-lg border shadow-md transition delay-150 duration-150 ease-in-out hover:-translate-y-1 hover:scale-110 sm:w-[20rem] lg:w-[30rem]"
+    routerLink="/summary"
+  >
+    <div class="flex justify-center">
+      <img class="h-20 sm:h-48" src="assets/images/card.png" alt="" />
+    </div>
+    <div class="p-4 text-center text-xl font-bold">
+      {{ 'PAYMENT.CARD' | translate }}
+    </div>
+  </div>
+</div>

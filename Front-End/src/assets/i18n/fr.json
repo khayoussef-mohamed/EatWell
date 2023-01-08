@@ -1,0 +1,13 @@
+{
+  "SLIDER": {
+    "DRINKS": "Boissons",
+    "FOOD": "Plats",
+    "DESSERTS": "Desserts"
+  },
+  "PAYMENT":
+  {
+    "CASH": "Régler en espèces",
+    "CARD": "Régler par carte bancaire",
+    "PAY": "Payer"
+  }
+}

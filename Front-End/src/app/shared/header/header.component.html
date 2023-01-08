@@ -14,8 +14,8 @@
   >
 
   <div class="flex items-center text-sm text-white sm:space-x-14 space-x-3">
-    <mat-icon class="cursor-pointer" routerLink="/home">home</mat-icon>
-    <mat-icon class="cursor-pointer" routerLink="/menu">restaurant</mat-icon>
+    <mat-icon class="cursor-pointer" routerLink="/welcome">home</mat-icon>
+    <mat-icon class="cursor-pointer" routerLink="/home">restaurant</mat-icon>
     <mat-icon class="cursor-pointer" routerLink="/basket">shopping_basket</mat-icon>
 
     <input
@@ -42,8 +42,8 @@
       >{{ string }}<mat-icon>language</mat-icon></a
     >
     <mat-menu #menuLanguage="matMenu">
-      <button mat-menu-item (click)="french()">Français</button>
-      <button mat-menu-item (click)="english()">English</button>
+      <button mat-menu-item (click)="french()">FR</button>
+      <button mat-menu-item (click)="english()">EN</button>
     </mat-menu>
   </div>
 </header>
