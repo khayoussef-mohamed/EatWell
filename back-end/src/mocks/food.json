@@ -5,7 +5,7 @@
     "img": "https://static.kfc.fr/images/items/lg/DoubleKrunchFish.jpg?v=gODNk3",
     "name": "Fish Burger",
     "notation": 4,
-    "price": 10.99
+    "price": 11.00
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "img": "https://static.kfc.fr/images/items/lg/ColonelOriginalVeggie-.jpg?v=gODNk3",
     "name": "Orginal Veggie",
     "notation": 3,
-    "price": 8.99
+    "price": 9.00
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "img": "https://static.kfc.fr/images/items/lg/DlubleKrunchCheese.jpg?v=gODNk3",
     "name": "Chicken Burger",
     "notation": 3,
-    "price": 8.99
+    "price": 9.00
   },
   {
     "id": 4,
@@ -29,7 +29,7 @@
     "img": "https://static.kfc.fr/images/items/lg/DlubleKrunchCheese.jpg?v=gODNk3",
     "name": "Big King",
     "notation": 3,
-    "price": 8.99
+    "price": 9.00
   },
   {
     "id": 5,
@@ -37,7 +37,7 @@
     "img": "https://static.kfc.fr/images/items/lg/ColonelOriginalVeggie-.jpg?v=gODNk3",
     "name": "Veggie cheese & Bacon",
     "notation": 3,
-    "price": 8.99
+    "price": 8.00
   },
   {
     "id": 6,
@@ -45,7 +45,7 @@
     "img": "https://static.kfc.fr/images/items/lg/DlubleKrunchCheese.jpg?v=gODNk3",
     "name": "Double Cheese",
     "notation": 3,
-    "price": 8.99
+    "price": 11.00
   },
   {
     "id": 7,
@@ -53,7 +53,7 @@
     "img": "https://static.kfc.fr/images/items/lg/DlubleKrunchCheese.jpg?v=gODNk3",
     "name": "Chèvre Burger",
     "notation": 3,
-    "price": 8.99
+    "price": 11.00
   },
   {
     "id": 8,
@@ -61,7 +61,7 @@
     "img": "https://static.kfc.fr/images/items/lg/7upFree.jpg?v=gODNk3",
     "name": "7 UP",
     "notation": 3,
-    "price": 2.99
+    "price": 2.00
   },
   {
     "id": 9,
@@ -69,7 +69,7 @@
     "img": "https://static.kfc.fr/images/items/lg/Pepsi.jpg?v=gODNk3",
     "name": "Pepsi",
     "notation": 3,
-    "price": 2.99
+    "price": 2.00
   },
   {
     "id": 10,
@@ -77,16 +77,16 @@
     "img": "https://static.kfc.fr/images/items/lg/LITYellow.jpg?v=gODNk3",
     "name": "Ice Tea",
     "notation": 3,
-    "price": 2.99
+    "price": 2.00
   },
 
   {
     "id": 11,
     "type": "dessert",
     "img": "https://static.kfc.fr/images/items/lg/NutellaMuffin.jpg?v=gODNk3",
-    "name": "Cheese Cake",
+    "name": "Nutella Muffin",
     "notation": 3,
-    "price": 8.99
+    "price": 8.00
   },
   {
     "id": 12,
@@ -94,7 +94,7 @@
     "img": "https://static.kfc.fr/images/items/lg/Cookie.jpg?v=gODNk3",
     "name": "Cookie",
     "notation": 3,
-    "price": 7.99
+    "price": 9.00
   },
   {
     "id": 13,
@@ -102,7 +102,7 @@
     "img": "https://static.kfc.fr/images/items/lg/Brookie.jpg?v=gODNk3",
     "name": "Brownie",
     "notation": 3,
-    "price": 8.99
+    "price": 8.00
 
   },
   {
@@ -111,7 +111,7 @@
     "img": "https://static.kfc.fr/images/items/lg/Cookie.jpg?v=gODNk3",
     "name": "Donut",
     "notation": 3,
-    "price": 8.99
+    "price": 9.00
   },
   {
     "id": 15,
@@ -119,7 +119,7 @@
     "img": "https://static.kfc.fr/images/items/lg/Cookie.jpg?v=gODNk3",
     "name": "Ice Cream",
     "notation": 3,
-    "price": 8.99
+    "price": 9.00
   },
   {
     "id": 16,
@@ -127,7 +127,7 @@
     "img": "https://static.kfc.fr/images/items/lg/Cookie.jpg?v=gODNk3",
     "name": "Tiramisu",
     "notation": 3,
-    "price": 8.99
+    "price": 9.00
   },
   {
     "id": 18,
@@ -135,7 +135,7 @@
     "img": "https://static.kfc.fr/images/items/lg/Cookie.jpg?v=gODNk3",
     "name": "Tarte au pomme",
     "notation": 3,
-    "price": 8.99
+    "price": 9.00
   },
   {
     "id": 19,
@@ -143,7 +143,7 @@
     "img": "https://static.kfc.fr/images/items/lg/Cookie.jpg?v=gODNk3",
     "name": "Gâteau au chocolat",
     "notation": 3,
-    "price": 8.99
+    "price": 9.00
   },
   {
     "id": 20,
@@ -151,6 +151,6 @@
     "img": "https://static.kfc.fr/images/items/lg/Cookie.jpg?v=gODNk3",
     "name": "Glace au chocolat",
     "notation": 3,
-    "price": 5.99
+    "price": 9.00
   }
 ]

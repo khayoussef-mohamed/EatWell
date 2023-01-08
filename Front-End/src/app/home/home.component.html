@@ -12,11 +12,11 @@
             </mat-card-header>
             <img mat-card-image [src]="food.img">
             <!-- src="../../assets/images/plat.jpg"-->
-            <mat-card-actions>
-              <button mat-button>{{food.price}} €</button>
-              <span  *ngFor="let n of createArray(food.notation)">
-                <button mat-button><mat-icon fontIcon="star_border" ></mat-icon></button>
-              </span>
+            <mat-card-actions style="display: flex; justify-content: space-between;">
+              <div><span mat-button class="font-bold">{{food.price}} €</span></div>
+            <div><span  *ngFor="let n of createArray(food.notation)">
+                <mat-icon fontIcon="star_border" ></mat-icon>
+              </span></div>
             </mat-card-actions>
           </mat-card>
         </div>

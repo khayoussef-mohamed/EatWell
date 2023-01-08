@@ -17,8 +17,11 @@
           </div>
 
           <div class="flex flex-row justify-center p-2 ">
-            <div class="text-xl sm:text-2xl p-2 text-center font-bold text-orange-400 ">
+            <div class="text-xl sm:text-2xl p-2 text-center font-bold text-orange-400 " *ngIf= "!status">
               {{ 'RECAP.WAIT' | translate }}  <mat-icon>loop</mat-icon>
+            </div>
+            <div class="text-xl sm:text-2xl p-2 text-center font-bold text-[#22c55e]" *ngIf = "status">
+              {{ 'RECAP.READY' | translate }}  	<mat-icon>done_outline</mat-icon>
             </div>
           </div>
 
