@@ -30,6 +30,7 @@ import {MatButtonModule} from "@angular/material/button";
 import { FlexLayoutModule } from '@angular/flex-layout';
 import {FoodPipeFilter} from "./pipes/food.pipe";
 import {PaymentComponent} from "./pages/payment/payment.component";
+import {WelcomeComponent} from "./pages/welcome/welcome.component";
 
 
 registerLocaleData(fr);
@@ -48,6 +49,7 @@ registerLocaleData(fr);
     SummaryComponent,
     SliderComponent,
     PaymentComponent,
+    WelcomeComponent,
     FoodPipeFilter
   ],
   imports: [

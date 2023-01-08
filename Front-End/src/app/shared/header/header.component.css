@@ -12,8 +12,8 @@
 .moon {
   position: absolute;
   left: 0;
-  width: 100%;
-  height: auto;
+  width: 70%;
+  height: 3rem;
   transition: top 0.3s;
 }
 .sun {

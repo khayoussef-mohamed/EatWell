@@ -1,39 +1,39 @@
 <div class="flex flex-row space-x-4">
   <div
-    class="flex w-[10rem] justify-center flex-col space-y-2 p-4 md:h-[35rem] md:flex-row space-x-4 md:w-[60rem] bg-[#fed7aa] basis-5/6 rounded-lg"
+    class="flex w-[10rem] justify-center flex-col space-y-2 p-4 md:h-[35rem] md:flex-row space-x-4 md:w-[60rem] items-center rounded-lg"
   >
     <div class="flex flex-col space-y-4">
       <div
-        class="flex flex row  rounded-lg border w-[55rem] h-[25rem] justify-center"
+        class="flex flex row  rounded-lg border w-[19rem] sm:w-[55rem] h-[25rem] justify-center"
       >
         <div
-          class="flex flex-col space-y-2 rounded-lg border w-[35rem] h-[23rem]"
+          class="flex flex-col space-y-2 rounded-lg  w-[35rem] h-[23rem]"
         >
           <!-- Titre -->
           <div class="flex flex-row justify-center p-2 ">
             <div class="text-2xl sm:text-l p-2 text-center font-bold">
-              Récapitulatif
+              {{ 'RECAP.RECAP' | translate }}
             </div>
           </div>
 
           <div class="flex flex-row justify-center p-2 ">
-            <div class="text-l sm:text-l p-0 text-center font-bold text-orange-400 ">
-              Commande en cours
+            <div class="text-xl sm:text-2xl p-2 text-center font-bold text-orange-400 ">
+              {{ 'RECAP.WAIT' | translate }}  <mat-icon>loop</mat-icon>
             </div>
           </div>
 
           <!-- Résumé -->
-          <div class="flex flex-col justify-c p-2 space-y-2">
+          <div class="flex flex-col justify-center p-2 space-y-2">
             <div
-              class="flex flex row rounded-lg border w-[33rem] h-[15rem] items-center justify-between"
+              class="flex flex row rounded-lg p-2 border w-[17rem] sm:w-[40rem] h-[11rem] bg-[#fbbf24] items-center justify-between"
             >
                 <div
-                  class="text-xl sm:text-l p-0 text-center font-bold w-[15rem] h-[10rem]"
+                  class="text-xl sm:text-l p-2 text-center font-bold w-[15rem] h-[10rem]"
                 >
                   2 Burger classique
                 </div>
               <div
-                class="text-xl sm:text-l p-0 text-center font-bold"
+                class="text-xl sm:text-l p-6 text-center font-bold"
               >
                 Total 20€
               </div>
@@ -42,7 +42,7 @@
         </div>
       </div>
       <div
-        class="flex flex-row rounded-lg border w-[55rem] h-[5rem] justify-between items-center p-10"
+        class="flex flex-row rounded-lg border w-[19rem] sm:w-[55rem] h-[5rem]  justify-between items-center p-6"
       >
         <div routerLink= "/items">
           <mat-icon
@@ -54,10 +54,11 @@
         </div>
         <div routerLink= "/home">
           <div
-            class="flex rounded-lg border w-[15rem] h-[3rem]  items-center p-2 bg-[#ff9900]"
+            class="flex rounded-lg border w-[12rem] sm:w-[12rem] sm:h-[3rem]  items-center p-2  bg-[#dc2626]"
           >
-            <div class="text-xl sm:text-l p-0 text-center font-bold">
-              <button>Modifier la commande</button>
+            <div class="text-l sm:text-l p-2 text-center justify-center font-bold">
+              <button> Modifier commande </button>
+              <mat-icon>edit</mat-icon>
             </div>
           </div>
         </div>

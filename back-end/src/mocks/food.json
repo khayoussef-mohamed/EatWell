@@ -2,164 +2,155 @@
   {
     "id": 1,
     "type": "plat",
-    "img": "https://www.pizzahut.fr/sites/default/files/2019-03/PH_Logo_2019.png",
-    "name": "Pizza Hut",
+    "img": "https://static.kfc.fr/images/items/lg/DoubleKrunchFish.jpg?v=gODNk3",
+    "name": "Fish Burger",
     "notation": 4,
-    "price": 10
+    "price": 10.99
   },
   {
     "id": 2,
     "type": "plat",
-    "img": "http://www.tutotek.com/266/comment-creer-lien-html/",
-    "name": "Burger King",
+    "img": "https://static.kfc.fr/images/items/lg/ColonelOriginalVeggie-.jpg?v=gODNk3",
+    "name": "Orginal Veggie",
     "notation": 3,
-    "price": 8
+    "price": 8.99
   },
   {
     "id": 3,
     "type": "plat",
-    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
-    "name": "Burger King",
+    "img": "https://static.kfc.fr/images/items/lg/DlubleKrunchCheese.jpg?v=gODNk3",
+    "name": "Chicken Burger",
     "notation": 3,
-    "price": 8
+    "price": 8.99
   },
   {
     "id": 4,
     "type": "plat",
-    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
-    "name": "Burger King",
+    "img": "https://static.kfc.fr/images/items/lg/DlubleKrunchCheese.jpg?v=gODNk3",
+    "name": "Big King",
     "notation": 3,
-    "price": 8
+    "price": 8.99
   },
   {
     "id": 5,
     "type": "plat",
-    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
-    "name": "Burger King",
+    "img": "https://static.kfc.fr/images/items/lg/ColonelOriginalVeggie-.jpg?v=gODNk3",
+    "name": "Veggie cheese & Bacon",
     "notation": 3,
-    "price": 8
+    "price": 8.99
   },
   {
     "id": 6,
     "type": "plat",
-    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
-    "name": "Burger King",
+    "img": "https://static.kfc.fr/images/items/lg/DlubleKrunchCheese.jpg?v=gODNk3",
+    "name": "Double Cheese",
     "notation": 3,
-    "price": 8
+    "price": 8.99
   },
   {
     "id": 7,
     "type": "plat",
-    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
-    "name": "Burger King",
+    "img": "https://static.kfc.fr/images/items/lg/DlubleKrunchCheese.jpg?v=gODNk3",
+    "name": "Chèvre Burger",
     "notation": 3,
-    "price": 8
+    "price": 8.99
   },
   {
     "id": 8,
     "type": "boisson",
-    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
-    "name": "Coca-Cola",
+    "img": "https://static.kfc.fr/images/items/lg/7upFree.jpg?v=gODNk3",
+    "name": "7 UP",
     "notation": 3,
-    "price": 8
+    "price": 2.99
   },
   {
     "id": 9,
     "type": "boisson",
-    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
-    "name": "Fanta",
+    "img": "https://static.kfc.fr/images/items/lg/Pepsi.jpg?v=gODNk3",
+    "name": "Pepsi",
     "notation": 3,
-    "price": 8
+    "price": 2.99
   },
   {
     "id": 10,
     "type": "boisson",
-    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
-    "name": "Sprite",
+    "img": "https://static.kfc.fr/images/items/lg/LITYellow.jpg?v=gODNk3",
+    "name": "Ice Tea",
     "notation": 3,
-    "price": 8
+    "price": 2.99
   },
 
   {
     "id": 11,
     "type": "dessert",
-    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
+    "img": "https://static.kfc.fr/images/items/lg/NutellaMuffin.jpg?v=gODNk3",
     "name": "Cheese Cake",
     "notation": 3,
-    "price": 8
+    "price": 8.99
   },
   {
     "id": 12,
     "type": "dessert",
-    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
-    "name": "Brownie",
+    "img": "https://static.kfc.fr/images/items/lg/Cookie.jpg?v=gODNk3",
+    "name": "Cookie",
     "notation": 3,
-    "price": 8
+    "price": 7.99
   },
   {
     "id": 13,
     "type": "dessert",
-    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
-    "name": "Milk Shake",
+    "img": "https://static.kfc.fr/images/items/lg/Brookie.jpg?v=gODNk3",
+    "name": "Brownie",
     "notation": 3,
-    "price": 8
+    "price": 8.99
 
   },
   {
     "id": 14,
     "type": "dessert",
-    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
-    "name": "donut",
+    "img": "https://static.kfc.fr/images/items/lg/Cookie.jpg?v=gODNk3",
+    "name": "Donut",
     "notation": 3,
-    "price": 8
+    "price": 8.99
   },
   {
     "id": 15,
     "type": "dessert",
-    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
-    "name": "ice Cream",
+    "img": "https://static.kfc.fr/images/items/lg/Cookie.jpg?v=gODNk3",
+    "name": "Ice Cream",
     "notation": 3,
-    "price": 8
+    "price": 8.99
   },
   {
     "id": 16,
     "type": "dessert",
-    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
-    "name": "ice Cream",
+    "img": "https://static.kfc.fr/images/items/lg/Cookie.jpg?v=gODNk3",
+    "name": "Tiramisu",
     "notation": 3,
-    "price": 8
+    "price": 8.99
   },
-  {
-    "id": 17,
-    "type": "dessert",
-    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
-    "name:": "tarte au citron",
-    "notation": 3,
-    "price": 8
-  },
-
   {
     "id": 18,
     "type": "dessert",
-    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
-    "name": "tarte au pomme",
+    "img": "https://static.kfc.fr/images/items/lg/Cookie.jpg?v=gODNk3",
+    "name": "Tarte au pomme",
     "notation": 3,
-    "price": 8
+    "price": 8.99
   },
   {
     "id": 19,
     "type": "dessert",
-    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
-    "name": "gateau au chocolat",
+    "img": "https://static.kfc.fr/images/items/lg/Cookie.jpg?v=gODNk3",
+    "name": "Gâteau au chocolat",
     "notation": 3,
-    "price": 8
+    "price": 8.99
   },
   {
     "id": 20,
     "type": "dessert",
-    "img": "https://www.burgerking.fr/sites/default/files/2019-03/BK_Logo_2019.png",
-    "name": "glace au chocolat",
+    "img": "https://static.kfc.fr/images/items/lg/Cookie.jpg?v=gODNk3",
+    "name": "Glace au chocolat",
     "notation": 3,
-    "price": 8
+    "price": 5.99
   }
 ]

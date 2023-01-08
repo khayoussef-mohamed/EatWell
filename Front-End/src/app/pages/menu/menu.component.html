@@ -1,18 +1,18 @@
 <div class="flex flex-row space-x-4">
 
   <div
-    class="flex w-[22rem] h-[28rem] md:w-[70rem] justify-center flex-col space-y-2 p-4 md:h-[30rem] md:flex-row space-x-4 overflow-auto rounded-lg border p-2 shadow-md justify-center">
+    class="flex w-[22rem] h-[28rem] md:w-[70rem] justify-center flex-col space-y-2 p-4 md:h-[30rem] md:flex-row space-x-4 overflow-auto p-2  justify-center">
     <div class="flex flex-col space-y-2 items-center justify-center">
       <div
       >
-        <div class="flex flex-col space-y-0 rounded-lg overflow-auto border w-[15rem] h-[20rem] md:w-[50rem] md:h-[22rem] ">
-       <div>
+        <div class="flex flex-col space-y-0 rounded-lg overflow-auto border w-[20rem] h-[18rem] md:w-[50rem] md:h-[22rem] p-2 ">
+       <div class="flex flex-row justify-center w-[20rem] h-[15rem] md:w-[50rem] md:h-[22rem] space-x-2 p-4">
          <div class="content" >
            <div fxLayout="row wrap" fxLayoutGap="16px grid">
              <div >
                <mat-card class="mat-elevation-z4">
                  <mat-card-header>
-                   <mat-card-title >{{selectedFood.name}}</mat-card-title>
+                   <mat-card-title class="text-[#dc2626]" >{{selectedFood.name}}</mat-card-title>
                  </mat-card-header>
                  <img mat-card-image [src]="selectedFood.img">
                </mat-card>
@@ -21,11 +21,11 @@
          </div>
        </div>
           <!-- Prix + ajout -->
-          <div class="flex flex-row justify-between p-4">
-            <div class="text-s sm:text-l p-0 text-center font-bold bg[#ef4444]">
-              {{selectedFood.price}} $
+          <div class="flex flex-row justify-between p-4 inset-x-0 bottom-0 space-x-4">
+            <div class="text-4xl sm:text-l p-0 text-center font-bold text-[#dc2626]">
+              {{selectedFood.price}} €
             </div>
-            <div class="flex flex-row space-x-8">
+            <div class="flex flex-row space-x-6">
               <mat-icon
                 aria-hidden="false"
                 aria-label="Example home icon"
@@ -33,7 +33,7 @@
                 color=""
                 (click)="this.service.selectedFoodQuantity$.next(this.service.selectedFoodQuantity$.value + 1)"
               ></mat-icon>
-              <div class="flex justify-center">{{this.service.selectedFoodQuantity$.value}}</div>
+              <div class="flex justify-center text-4xl ">{{this.service.selectedFoodQuantity$.value}}</div>
               <mat-icon
                 fontIcon="remove_circle_outline "
                 color="warn"
@@ -44,7 +44,7 @@
         </div>
       </div>
       <div
-        class="flex flex-row rounded-lg border w-[15rem] h-[3rem] md:w-[50rem] md:h-[4rem] justify-between items-center p-6"
+        class="flex flex-row rounded-lg border w-[20rem] h-[5rem] md:w-[50rem] md:h-[6rem] justify-between items-center p-4"
       >
         <div routerLink="/home" class="cursor-pointer">
           <mat-icon
@@ -56,10 +56,10 @@
         </div>
         <div routerLink= "/basket">
           <div
-            class="flex rounded-lg border w-[8rem] h-[3rem] md:w-[15rem] md:h-[3rem] justify-between items-center p-3 bg-[#ff9900] cursor-pointer"
+            class="flex rounded-lg border w-[12rem] h-[3rem] md:w-[15rem] md:h-[4rem] justify-between items-center p-3 bg-[#dc2626] cursor-pointer"
           >
-            <div (click)="addToBasket()" class="text-l sm:text-l p-0 text-center font-bold">
-              Ajouter au panier
+            <div (click)="addToBasket()" class="text-l sm:text-l p-0 text-center font-bold sm:text-center">
+              {{ 'ORDER.ORDER' | translate }}
             </div>
             <mat-icon
               aria-hidden="false"

@@ -1,13 +1,26 @@
 {
   "SLIDER": {
     "DRINKS": "Boissons",
-    "FOOD": "Plats",
+    "FOOD": "Burgers",
     "DESSERTS": "Desserts"
   },
-  "PAYMENT":
-  {
+  "PAYMENT": {
     "CASH": "Régler en espèces",
     "CARD": "Régler par carte bancaire",
     "PAY": "Payer"
+  },
+  "ORDER": {
+    "LIST": "Liste des commandes",
+    "VALIDATE": "Valider panier",
+    "ORDER": "Commander",
+    "ORDERN": "Commander maintenant"
+  },
+  "EXTRA": {
+    "ADD": "Ajout d'un supplément"
+  },
+  "RECAP": {
+    "RECAP": "Récapitulatif de la commande",
+    "READY": "Votre commande est prête",
+    "WAIT": "Votre commande est en cours de préparation"
   }
 }

@@ -1,7 +1,7 @@
 {
   "SLIDER": {
     "DRINKS": "Drinks",
-    "FOOD": "Food",
+    "FOOD": "Burgers",
     "DESSERTS": "Desserts"
   },
 "PAYMENT":
@@ -9,5 +9,19 @@
     "CASH": "Pay in cash",
     "CARD": "Pay by credit card",
     "PAY": "Pay"
-  }
+  },
+  "ORDER": {
+    "LIST": "Order list",
+    "VALIDATE": "Validate order",
+    "ORDER": "Order",
+    "ORDERN": "Order now"
+  },
+  "EXTRA": {
+    "ADD": "Adding a supplement"
+  },
+  "RECAP": {
+  "RECAP": "Recap of your order",
+    "READY": "Your order is ready",
+    "WAIT": "Your order is being prepared"
+}
 }

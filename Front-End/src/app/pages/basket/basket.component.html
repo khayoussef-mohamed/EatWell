@@ -1,43 +1,29 @@
 
-<div class="flex flex-row space-x-4">
-  <div class="flex flex-col space-y-4 items-center">
+<div class="flex flex-row space-x-2">
+  <div class="flex flex-col space-y-2 items-center">
     <div
-      class="flex flex-row w-[30rem] h-[25rem] md:w-[55rem] md:h-[25rem] rounded-lg border justify-center items-center"
+      class="flex flex-row w-[30rem] h-[25rem] md:w-[55rem] md:h-[25rem] rounded-lg  justify-center items-center"
     >
       <div
-        class="flex flex-col space-y-2 rounded-lg border w-[25rem] h-[20rem] md:w-[40rem] md:h-[23rem]"
+        class="flex flex-col space-y-2 rounded-lg border w-[22rem] h-[20rem] md:w-[40rem] md:h-[23rem] justify-center items-center"
       >
         <!-- Titre -->
         <div class="flex flex-row justify-center p-2">
-          <div class="text-l sm:text-l p-2 text-center font-bold">Votre commande</div>
+          <div class="text-l sm:text-l p-2 text-center font-bold">{{ 'ORDER.LIST' | translate }}</div>
         </div>
 
         <!-- Personnaliser -->
-        <div class="flex flex-col items-center p-2 space-y-2 overflow-auto">
+        <div class="flex flex-col justify-center items-center p-2 space-y-2 overflow-auto">
           <div *ngFor="let item of this.getSingleFoodBasket(); index as i"
-               class="flex flex-row w-[24rem] h-[4rem] space-x-3 md:w-[33rem]  md:h-[4rem] bg-[#fed7aa] rounded-lg border items-center"
+               class="flex flex-row w-[19rem] h-[4rem] space-x-3 md:w-[33rem]  md:h-[4rem] bg-[#fbbf24] rounded-lg border items-center"
           >
-            <div class="basis-1/4">{{item.name}}</div>
-            <div class="basis-1/4">{{item.price}}€</div>
-            <div class="basis-1/4">
-              <button
-                class="px-2 md:px-4 md:py-2 text-center shawdow-md hover:bg-[#cbd5e1]"
-              >
-                Personnaliser
-              </button>
-            </div>
-            <div class="flex flex-row basis-1/4">
-              <mat-icon
-                aria-hidden="false"
-                aria-label="Example home icon"
-                fontIcon="add_circle_outline"
-                color=""
-              ></mat-icon>
-              <div class="flex justify-center">{{getItemQuantity(item)}}</div>
-              <mat-icon
-                fontIcon="remove_circle_outline "
-                color="warn"
-              ></mat-icon>
+            <div class="basis-1/3 text-center font-bold">{{item.name}}</div>
+            <div class="basis-1/3 text-center">{{item.price}}€</div>
+            <div class="flex flex-row basis-1/3">
+
+              <div class="flex justify-center"><div class="font-bold">Qte.    </div>
+                {{getItemQuantity(item)}}</div>
+
             </div>
           </div>
 
@@ -45,9 +31,9 @@
       </div>
     </div>
     <div
-      class="flex flex-row rounded-lg border w-[30rem] h-[6rem] md:w-[55rem] md:h-[6rem] justify-between items-center p-10"
+      class="flex flex-row rounded-lg border w-[22rem] h-[6rem] md:w-[40rem] md:h-[6rem] justify-between items-center p-6"
     >
-      <div routerLink="/menu">
+      <div routerLink="/home">
         <mat-icon
           aria-hidden="false"
           aria-label="Example home icon"
@@ -57,10 +43,10 @@
       </div>
       <div routerLink= "/items">
         <div
-          class="flex rounded-lg border w-[15rem] h-[3rem] justify-between items-center p-5 bg-[#ff9900]"
+          class="flex rounded-lg border w-[15rem] h-[3rem] justify-between items-center p-5 bg-[#dc2626]"
         >
           <div class="text-l sm:text-l p-0 text-center font-bold">
-            Valider le panier
+            {{ 'ORDER.VALIDATE' | translate }}
           </div>
           <div class="text-l sm:text-l p-0 text-center font-bold">{{totalAmount()}}€</div>
           <mat-icon
