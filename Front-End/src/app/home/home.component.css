@@ -26,3 +26,7 @@ mat-toolbar {
 .mat-card-title {
   text-align: center;
 }
+mat-card {
+  background-color: #b0adad;
+  color: #2d3436;
+}
