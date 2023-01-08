@@ -2,6 +2,7 @@ import { Component, OnInit} from '@angular/core';
 import {Router} from "@angular/router";
 import {FoodModel} from "../../models/food.model";
 import {EatwellServiceService} from "../../Services/eatwell-service.service";
+import {lastValueFrom} from "rxjs";
 
 
 @Component({
@@ -23,4 +24,16 @@ export class MenuComponent implements OnInit {
   }
 
 
+  async addToBasket() {
+    const promises: Promise<any>[] = []
+    this.service.basket$.next(this.service.basket$.value.concat(Array(this.service.selectedFoodQuantity$.value)
+        .fill(this.selectedFood)
+      )
+    )
+
+    Array(this.service.selectedFoodQuantity$.value)
+      .fill(this.selectedFood).forEach(item => promises.push(lastValueFrom(this.service.addFoodToCart(item))));
+
+    await Promise.all(promises);
+  }
 }

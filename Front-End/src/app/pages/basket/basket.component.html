@@ -1,3 +1,4 @@
+
 <div class="flex flex-row space-x-4">
   <div class="flex flex-col space-y-4 items-center">
     <div
@@ -8,16 +9,16 @@
       >
         <!-- Titre -->
         <div class="flex flex-row justify-center p-2">
-          <div class="text-l sm:text-l p-2 text-center font-bold">Burgers</div>
+          <div class="text-l sm:text-l p-2 text-center font-bold">Votre commande</div>
         </div>
 
         <!-- Personnaliser -->
-        <div class="flex flex-col items-center p-2 space-y-2">
-          <div
-            class="flex flex-row w-[24rem] h-[4rem] space-x-3 md:w-[33rem] md:h-[4rem] bg-[#fed7aa] rounded-lg border items-center"
+        <div class="flex flex-col items-center p-2 space-y-2 overflow-auto">
+          <div *ngFor="let item of this.getSingleFoodBasket(); index as i"
+               class="flex flex-row w-[24rem] h-[4rem] space-x-3 md:w-[33rem]  md:h-[4rem] bg-[#fed7aa] rounded-lg border items-center"
           >
-            <div class="basis-1/4">Classic burger</div>
-            <div class="basis-1/4">5€</div>
+            <div class="basis-1/4">{{item.name}}</div>
+            <div class="basis-1/4">{{item.price}}€</div>
             <div class="basis-1/4">
               <button
                 class="bg-[#f8fafc] px-2 md:px-4 md:py-2 text-center shawdow-md hover:bg-[#cbd5e1]"
@@ -32,65 +33,14 @@
                 fontIcon="add_circle_outline"
                 color=""
               ></mat-icon>
-              <div class="flex justify-center">1</div>
+              <div class="flex justify-center">{{getItemQuantity(item)}}</div>
               <mat-icon
                 fontIcon="remove_circle_outline "
                 color="warn"
               ></mat-icon>
             </div>
           </div>
-          <div
-            class="flex flex-row w-[24rem] h-[4rem] space-x-3 md:w-[33rem] md:h-[4rem] bg-[#fed7aa] rounded-lg border items-center"
-          >
-            <div class="basis-1/4">Classic burger</div>
-            <div class="basis-1/4">5€</div>
-            <div class="basis-1/4">
-              <button
-                class="bg-[#f8fafc] px-2 md:px-4 md:py-2 text-center shawdow-md hover:bg-[#cbd5e1]"
-              >
-                Personnaliser
-              </button>
-            </div>
-            <div class="flex basis-1/4 flex-row">
-              <mat-icon
-                aria-hidden="false"
-                aria-label="Example home icon"
-                fontIcon="add_circle_outline"
-                color=""
-              ></mat-icon>
-              <div class="flex justify-center">1</div>
-              <mat-icon
-                fontIcon="remove_circle_outline "
-                color="warn"
-              ></mat-icon>
-            </div>
-          </div>
-          <div
-            class="flex flex-row w-[24rem] h-[4rem] space-x-3 md:w-[33rem] md:h-[4rem] bg-[#fed7aa] rounded-lg border items-center"
-          >
-            <div class="basis-1/4">Classic burger</div>
-            <div class="basis-1/4">5€</div>
-            <div class="basis-1/4">
-              <button
-                class="bg-[#f8fafc] px-2 md:px-4 md:py-2 text-center shawdow-md hover:bg-[#cbd5e1]"
-              >
-                Personnaliser
-              </button>
-            </div>
-            <div class="flex basis-1/4 flex-row">
-              <mat-icon
-                aria-hidden="false"
-                aria-label="Example home icon"
-                fontIcon="add_circle_outline"
-                color=""
-              ></mat-icon>
-              <div class="flex justify-center">1</div>
-              <mat-icon
-                fontIcon="remove_circle_outline "
-                color="warn"
-              ></mat-icon>
-            </div>
-          </div>
+
         </div>
       </div>
     </div>
@@ -112,7 +62,7 @@
           <div class="text-l sm:text-l p-0 text-center font-bold">
             Valider le panier
           </div>
-          <div class="text-l sm:text-l p-0 text-center font-bold">15€</div>
+          <div class="text-l sm:text-l p-0 text-center font-bold">{{totalAmount()}}€</div>
           <mat-icon
             aria-hidden="false"
             aria-label="Example home icon"
