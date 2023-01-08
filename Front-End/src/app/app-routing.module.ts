@@ -6,6 +6,7 @@ import {MenuComponent} from "./pages/menu/menu.component";
 import {BasketComponent} from "./pages/basket/basket.component";
 import {ItemsComponent} from "./pages/items/items.component";
 import {SummaryComponent} from "./pages/summary/summary.component";
+import {SliderComponent} from "./pages/slider/slider.component";
 
 const routes: Routes = [
   { path: 'header', component: HeaderComponent },
@@ -13,7 +14,8 @@ const routes: Routes = [
   { path: 'menu', component: MenuComponent },
   { path: 'basket', component: BasketComponent },
   { path: 'items', component: ItemsComponent },
-  { path: 'summary', component: SummaryComponent }
+  { path: 'summary', component: SummaryComponent },
+  { path: 'slider', component: SliderComponent }
 ];
 
 @NgModule({

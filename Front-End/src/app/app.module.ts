@@ -24,9 +24,16 @@ import { MatMenuModule } from '@angular/material/menu';
 import { BasketComponent } from './pages/basket/basket.component';
 import { ItemsComponent } from './pages/items/items.component';
 import { SummaryComponent } from './pages/summary/summary.component';
+import {SliderComponent} from "./pages/slider/slider.component";
+import {MatToolbarModule} from "@angular/material/toolbar";
+import {MatButtonModule} from "@angular/material/button";
+import { FlexLayoutModule } from '@angular/flex-layout';
+import {FoodPipeFilter} from "./pipes/food.pipe";
 
 registerLocaleData(fr);
 
+
+// @ts-ignore
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,6 +44,8 @@ registerLocaleData(fr);
     BasketComponent,
     ItemsComponent,
     SummaryComponent,
+    SliderComponent,
+    FoodPipeFilter
   ],
   imports: [
     BrowserModule,
@@ -50,6 +59,10 @@ registerLocaleData(fr);
     NzLayoutModule,
     NzMenuModule,
     MatIconModule,
+    MatCardModule,
+    MatToolbarModule,
+    MatButtonModule,
+    FlexLayoutModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
@@ -57,6 +70,7 @@ registerLocaleData(fr);
         deps: [HttpClient],
       },
     }),
+    MatToolbarModule,
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   providers: [{ provide: NZ_I18N, useValue: fr_FR }],

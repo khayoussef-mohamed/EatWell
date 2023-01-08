@@ -1,4 +1,4 @@
-import {Body, Controller, Get, HttpStatus, Logger, Post, Query} from '@nestjs/common';
+import {Body, Controller, Delete, Get, HttpStatus, Logger, Post, Query} from '@nestjs/common';
 import { AppService } from './app.service';
 import {Food} from "./models";
 
@@ -10,35 +10,29 @@ export class AppController {
 
   @Get()
   async getFoods() {
-    return {
-      statusCode: HttpStatus.OK,
-      data: this.appService.getListFood(),
-    };
+    return this.appService.getListFood()
   }
 
   @Get('getFoods')
   async getFoodsByType(@Query('type') type: string){
     this.logger.log(type);
-    return {
-      statusCode: HttpStatus.OK,
-      data: this.appService.getFoodByType(type),
-    };
+    return this.appService.getFoodByType(type)
   }
 
     @Get('getCart')
     async getCart(){
-      return {
-        statusCode: HttpStatus.OK,
-        data: this.appService.geListCart(),
-      };
+      return this.appService.geListCart()
     }
 
     @Post('addFoodToCart')
     async addFoodToCart(@Body() food: Food){
         this.logger.log(food);
-        return {
-            statusCode: HttpStatus.OK,
-            data: this.appService.addFoodToCart(food),
-        };
+        return this.appService.addFoodToCart(food)
+    }
+
+    @Delete('deleteFoodFromCart')
+    async deleteFoodFromCart(@Query('id') id: number){
+        this.logger.log(id);
+        return this.appService.deleteFoodFromCart(id)
     }
 }

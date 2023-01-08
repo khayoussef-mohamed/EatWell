@@ -30,4 +30,11 @@ export class AppService {
     await writeFile('./src/mocks/cart.json', JSON.stringify(cart));
     return this.carts[0];
   }
+
+ async deleteFoodFromCart(id) {
+    const index = this.carts[0].foods.findIndex(food => food.id === id);
+    this.carts[0].foods.splice(index, 1);
+    await writeFile('./src/mocks/cart.json', JSON.stringify(this.carts));
+    return this.carts[0];
+  }
 }

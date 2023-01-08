@@ -8,3 +8,21 @@
   height: 100px;
   background-color: aqua;
 }
+mat-toolbar {
+  justify-content: space-between;
+}
+
+.content {
+  padding: 16px;
+}
+
+.content > mat-card {
+  margin-bottom: 16px;
+}
+.mat-card-title {
+  display: flex;
+  justify-content: center;
+}
+.mat-card-title {
+  text-align: center;
+}

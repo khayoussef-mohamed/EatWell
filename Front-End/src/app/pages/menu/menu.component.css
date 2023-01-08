@@ -28,3 +28,30 @@ footer{
 .h1 {
   text-align: center;
 }
+
+mat-toolbar {
+  justify-content: space-between;
+}
+
+.content {
+  padding: 4px;
+
+}
+
+.content > mat-card {
+  margin-bottom: 16px;
+}
+.mat-card-title {
+  display: flex;
+  justify-content: center;
+}
+.mat-card-title {
+  text-align: center;
+}
+.img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+
+
