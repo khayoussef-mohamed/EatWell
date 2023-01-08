@@ -7,4 +7,5 @@ export class Cart {
     id: number
     @Column()
     foods: Food[]
+
 }

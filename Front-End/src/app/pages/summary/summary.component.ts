@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {delay} from "rxjs";
+import {EatwellServiceService} from "../../Services/eatwell-service.service";
 
 @Component({
   selector: 'app-summary',
@@ -8,6 +9,8 @@ import {delay} from "rxjs";
 })
 export class SummaryComponent {
    status = false;
+  constructor(public service: EatwellServiceService) {
+  }
 ngOnInit() {
   this.changeStatus()
 }
@@ -17,6 +20,10 @@ changeStatus(){
 }
  delay(milliseconds : number) {
     return new Promise(resolve => setTimeout( resolve, milliseconds));
+  }
+
+  totalAmount(){
+    return this.service.basket$.value.reduce((acc, val) => acc + val.price, 0)
   }
 
 }
